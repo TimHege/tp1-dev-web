@@ -1,0 +1,72 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+body{
+    margin: auto;
+    text-align: center;
+    background-color: var(--body-color-erreur);
+    
+}
+a{
+    text-decoration: none;
+}
+
+h1{
+    font-size: 100px;
+    font-family: "Press Start 2P";
+    color: rgb(201, 0, 0);
+    background-color: rgb(84, 84, 84);
+    text-shadow: rgb(57, 14, 14) 5px 6px 0px;
+    -webkit-background-clip: text;
+    margin-top: 40px;
+    transform: translateY(20px);
+    transition: 1s;
+}   
+
+h4{
+    font-size: 40px;
+    font-family: "Press Start 2P";
+    color: white;
+    margin-top: 50px;
+}
+
+h2{
+    color: var(--text-color);
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Press Start 2P";
+
+    
+}
+#button{
+    margin-top: 40px;
+    
+}
+h2:hover{
+    color: rgb(179, 0, 0);
+    transform: scale(1.5);
+
+    transition: 0.1s;
+    
+    
+}
+#block_button button{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none; 
+}
+
+#choix{
+    margin-right: 8%;
+    margin-top: 40px;
+}
+
+button:active {
+    border: 0px;
+}
+

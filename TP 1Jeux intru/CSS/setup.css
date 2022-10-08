@@ -1,0 +1,144 @@
+:root {
+    --first-color: hsl(203, 71%, 60%);
+    --second-color: hsl(277, 56%, 68%);
+    --niveau2-color: #b2bfab;
+    --niveau3-color: #ff94ed;
+    --text-color: hsl(203, 8%, 98%);
+    --body-color: hsl(259, 20%, 18%);
+    --body-color-erreur: hsl(0, 100%, 15%);
+    --body-color-niveau2: #7a9b37;
+    --body-color-niveau3: #4f0e18;
+    /* normal-bg */
+    --home--shape-small: #3f6d93;
+    --home--shape-big-1: #9c55c2;
+    --home--shape-big-2: #453e93;
+    /* niveau2-bg */
+    --home--shape-small-niveau2: #757c5f;
+    --home--shape-big-1-niveau2: #a84d5f;
+    --home--shape-big-2-niveau2: #7b4d5f;
+     /* niveau3-bg */
+     --home--shape-small-niveau3: #67486d;
+     --home--shape-big-1-niveau3: #9d1f6d;
+     --home--shape-big-2-niveau3: #6d1f6d;
+    /* erreur-bg */
+    --home--shape-small-erreur: #933f3f;
+    --home--shape-big-1-erreur: #ee0466;
+    --home--shape-big-2-erreur: #933e3e;
+}
+
+h2 {
+    color: var(--text-color);
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Press Start 2P";
+    margin: 20px 0px 40px 0px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+
+body{
+    overflow-x: hidden;
+}
+
+.home--shape-small,
+.home--shape-big-1,
+.home--shape-big-2,
+.home--shape-small-erreur,
+.home--shape-big-1-erreur,
+.home--shape-big-2-erreur,
+.home--shape-small-niveau2,
+.home--shape-big-1-niveau2,
+.home--shape-big-2-niveau2,
+.home--shape-small-niveau3,
+.home--shape-big-1-niveau3,
+.home--shape-big-2-niveau3{
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(200px);
+    z-index: -1;
+}
+
+.home--shape-small{
+    width: 650px ;
+    height: 650px ;
+    background-color: var(--home--shape-small);
+    top: 15%;
+    left: 10%;
+}
+.home--shape-small-erreur{
+    width: 650px ;
+    height: 650px ;
+    background-color: var(--home--shape-small-erreur);
+    top: 15%;
+    left: 10%;
+}
+
+.home--shape-big-1-erreur{
+    width: 300px ;
+    height: 300px ;
+    background-color: var(--home--shape-big-1-erreur);
+    top: 70%;
+    right: 32%;
+    
+}
+
+.home--shape-big-2-erreur{
+    width: 500px ;
+    height: 500px ;
+    background-color: var(--home--shape-big-2-erreur);
+    top: 10%;
+    right: 20%;
+}
+.home--shape-small-niveau2{
+    width: 650px ;
+    height: 650px ;
+    background-color: var(--home--shape-small-niveau2);
+    top: 15%;
+    left: 10%;
+}
+
+.home--shape-big-1-niveau2{
+    width: 300px ;
+    height: 300px ;
+    background-color: var(--home--shape-big-1-niveau2);
+    top: 70%;
+    right: 32%;
+    
+}
+
+.home--shape-big-2-niveau2{
+    width: 500px ;
+    height: 500px ;
+    background-color: var(--home--shape-big-2-niveau2);
+    top: 10%;
+    right: 20%;
+}
+
+.home--shape-small-niveau3{
+    width: 650px ;
+    height: 650px ;
+    background-color: var(--home--shape-small-niveau3);
+    top: 15%;
+    left: 10%;
+}
+
+.home--shape-big-1-niveau3{
+    width: 300px ;
+    height: 300px ;
+    background-color: var(--home--shape-big-1-niveau3);
+    top: 70%;
+    right: 32%;
+    
+}
+
+.home--shape-big-2-niveau3{
+    width: 500px ;
+    height: 500px ;
+    background-color: var(--home--shape-big-2-niveau3);
+    top: 10%;
+    right: 20%;
+}
+

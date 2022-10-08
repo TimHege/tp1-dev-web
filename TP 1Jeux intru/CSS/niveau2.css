@@ -1,0 +1,50 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+body{
+    background-color: var(--body-color-niveau2);
+    margin: auto;
+    text-align: center;
+}
+#tab2{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+h2 {
+    color: var(--text-color);
+    font-size: 50px;
+    font-weight: bold;
+}
+
+h5{
+    font-family: "Press Start 2P";
+    color: var(--niveau2-color);
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: rgb(14, 49, 57) 5px 6px 0px;
+}
+
+table tbody tr td{
+    border: var(--niveau2-color) 2px solid;
+    width: 198px;
+    height: 177px;
+}
+
+
+
+
+
+
+
+
+
+
+

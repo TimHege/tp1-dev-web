@@ -1,0 +1,68 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+body{
+    background-color: var(--body-color);
+    
+}
+
+h2 {
+    color: var(--text-color);
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Press Start 2P";
+    
+}
+
+
+h5{
+    
+    font-family: "Press Start 2P";
+    color: var(--first-color);
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: rgb(14, 49, 57) 5px 6px 0px;
+    text-align: center;
+}
+#button:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+#titre{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+#button button {
+    width: 400px;
+    height: 150px;
+    background: linear-gradient( 95deg, var(--second-color) 0%, var(--first-color) 100% );
+    border-radius: 100px;
+    border: 0;
+    cursor: pointer;
+}
+#button{
+    margin: auto;
+    text-align: center;
+}
+button:active {
+    border: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
